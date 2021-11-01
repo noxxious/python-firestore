@@ -5,6 +5,26 @@
 [1]: https://pypi.org/project/google-cloud-firestore/#history
 
 
+## [2.4.0](https://www.github.com/googleapis/python-firestore/compare/v2.3.4...v2.4.0) (2021-11-01)
+
+
+### Features
+
+* add context manager support in client ([#470](https://www.github.com/googleapis/python-firestore/issues/470)) ([1e1de20](https://www.github.com/googleapis/python-firestore/commit/1e1de20000c4441c4c015709d5c3512a53c74d6b))
+* add support for Python 3.10 ([#469](https://www.github.com/googleapis/python-firestore/issues/469)) ([ddcb099](https://www.github.com/googleapis/python-firestore/commit/ddcb0990e092416eb9a334fac5d8d9251bc43496))
+
+
+### Bug Fixes
+
+* **deps:** drop packaging dependency ([6b5a779](https://www.github.com/googleapis/python-firestore/commit/6b5a7795bb2827b65f8015fcef6663880a29a65d))
+* **deps:** require google-api-core >= 1.28.0 ([6b5a779](https://www.github.com/googleapis/python-firestore/commit/6b5a7795bb2827b65f8015fcef6663880a29a65d))
+* hash snapshots using correct type for 'update_time' ([#467](https://www.github.com/googleapis/python-firestore/issues/467)) ([5e66a73](https://www.github.com/googleapis/python-firestore/commit/5e66a73f7e9d3131f483bf5961e8dc308f5e8dc3))
+
+
+### Documentation
+
+* list oneofs in docstring ([6b5a779](https://www.github.com/googleapis/python-firestore/commit/6b5a7795bb2827b65f8015fcef6663880a29a65d))
+
 ### [2.3.4](https://www.github.com/googleapis/python-firestore/compare/v2.3.3...v2.3.4) (2021-09-30)
 
 
